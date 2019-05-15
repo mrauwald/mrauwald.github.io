@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> May 15 </title>
+</head>
+
+<body>
+    <p> this <b>is</b> a <br>paragraph. </p>
+
+    <p> this is a <i>second paragraph.</i></p>
+    
+    <p>4<sup>th</sup></p>
+
+    <ol>
+        <li>Coby White</li>
+        <li>Nassir Little</li>
+        <Cameron Johnson</li>
+
+    </ul>
+    
+    <hr>
+
+</body>
+
+</html>
