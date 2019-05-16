@@ -1,0 +1,12 @@
+body{
+    background-color: #30F2DE;
+}
+
+p, h1, h5{
+    color: white;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Abel', sans-serif;
+}
+}
