@@ -3,4 +3,8 @@ p{
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Abel', sans-serif;
 }
-}
+
+table, th, td {
+    border: 1px solid blue;
+    background-color: pink;
+  }
