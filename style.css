@@ -1,0 +1,121 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#background_header {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+header {
+    box-sizing: border-box;
+    position: absolute;
+    background: black;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 0;
+}
+
+header a {
+    display: inline-block;
+    background: ;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 0 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+header a:nth-last-child(1) {
+    border-right: 0;
+}
+
+header a:hover {
+    border-bottom: 2px solid white;
+}
+
+header a.active {
+    border-bottom: 2px solid white;
+}
+
+#name_center {
+	height: 110px;
+    width: 320px;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    margin: -55px -160px;
+    text-align: center;
+    line-height: 110px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#name_center h1 {
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+#main_content {
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 270px;
+    position: absolute;
+    color: white;
+    font-weight: lighter;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+#main_content h3 {
+    display: block;
+    float: right;
+    width: 260px;
+    height: 150px;
+    margin: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+
+#about_profile {
+	height: 150px;
+    margin: 0 20px 20px 0;
+}
+
+img.portfolio {
+    width: 100%;
+    margin-bottom: 10px;
+}
