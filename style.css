@@ -99,7 +99,7 @@ header a.active {
     margin-bottom: 50px;
 }
 
-#main_content h3 {
+#main_content h6 {
     display: block;
     float: right;
     width: 260px;
@@ -108,14 +108,29 @@ header a.active {
     padding-top: 45px;
     box-sizing: border-box;
     font-weight: lighter;
+    position: absolute;
+    left: 465px;
+    top: 10px;
 }
 
 #about_profile {
 	height: 150px;
     margin: 0 20px 20px 0;
+    width: 50%;
+    height: auto;
+}
+
+#about_profile2 {
+    height: 150px;
+    margin: 0 20px 20px 0;
+    position: absolute;
+    width: 28%;
+    height: auto;
 }
 
 img.portfolio {
     width: 100%;
     margin-bottom: 10px;
+    width: 100%;
+    height: auto;
 }
