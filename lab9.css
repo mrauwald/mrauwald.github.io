@@ -1,0 +1,22 @@
+.bg-1 { 
+    background-color: pink;
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: lightblue;
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: lightgreen;
+    color: #ffffff;
+  }
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  img.resize {
+    width:300px;
+    height: auto;
+}
