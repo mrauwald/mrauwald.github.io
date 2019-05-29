@@ -8,12 +8,37 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="lab9.css">
+
+
+  <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#">Alpacas</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">LOCATION</a></li>
+            <li><a href="#">DIET</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
 </head>
 <body>
-
 <div class="container-fluid bg-1 text-center">
 <h3>What are alpacas?</h3>
-<img src="alpaca.jpg" class="img-circle" alt="Cute Alpaca" width="200" height="200">
+<img src="alpaca.jpg" class="img-responsive img-circle" alt="Cute Alpaca" width="200" height="200"
+style="display:inline">
 
 <h3>The alpaca is a species of South American camelid.</h3>
 </div>
@@ -21,12 +46,34 @@
 <div class="container-fluid bg-2 text-center">
         <h3>What Do I Eat?</h3>
         <p>Alpacas mainly eat pasture grass, hay, or silage but some may also need supplemental energy and protein foods and they will also normally try to chew on almost anything.</p>
-      </div>
+        <a href="#" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search"></span> Search
+          </a>
+</div>
+
       
       <div class="container-fluid bg-3 text-center">
         <h3>Where To Find Me?</h3>
-        <p>Alpacas are native to Peru; it currently has the largest population of alpacas in the world.</p>
-
+        <div class="row">
+        <div class="col-sm-4">
+            <p>Alpacas are native to Peru; it currently has the largest population of alpacas in the world.</p>
+        <img src="map1.jpg" alt="Map" class="img-responsive" style="width:100%">
+      </div>
+      <div class="col-sm-4">
+        <p>Alpacas can have many different fur coats.</p>
+        <img src="alpaca2.jpg" alt="Alpacas2" class="img-responsive" style="width:100%">
+      </div>
+      <div class="col-sm-4"> 
+        <p>Alpacas can be found in mountainous regions.</p>
+        <img src="alpaca3.jpg" alt="Alpacas3" class="img-responsive" style="width:100%">
+      </div>
+    </div>
+  </div>
 
 </body>
+
+<footer class="container-fluid bg-4 text-center">
+    <p>Bootstrap Theme Made By Marisa</p> 
+  </footer>
+
 </html>
