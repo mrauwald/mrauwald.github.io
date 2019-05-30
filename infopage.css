@@ -28,6 +28,7 @@ body {
     margin-bottom: 0;
     font-size: 13px;
     letter-spacing: 5px;
+    text-decoration-color: darkgray;
 }
 
 /* Hover color change for nav and buttons*/
