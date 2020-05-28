@@ -122,7 +122,11 @@ src=&quot;https://mrauwald.github.io/TicketLottery.jpg&quot; alt=&quot;Ticket Lo
 
 [[Genetics Club]]
 [[Sports Club]]
-[[Social Justice Club]]</tw-passagedata><tw-passagedata pid="5" name="Genetics Club" tags="" position="1204,1188" size="100,100">You join the genetics club and enjoy learning about the field of DNA. After several months, you realize that you don&#39;t vibe with the people as much as you would like. (link: &quot;You decide to sign up for a different club.&quot;)[(goto: &quot;Learn about and sign up for clubs&quot;)Learn about and sign up for clubs]
+[[Social Justice Club]]</tw-passagedata><tw-passagedata pid="5" name="Genetics Club" tags="" position="1204,1188" size="100,100">You join the genetics club and enjoy learning about the field of DNA. After several months, you realize that you don&#39;t vibe with the people as much as you would like. 
+
+(link: &quot;Sign up for a different club&quot;)[(goto: &quot;Learn about and sign up for clubs&quot;)Learn about and sign up for clubs]
+(link: &quot;Sign up for a genetics class&quot;)[(goto: &quot;Register for classes&quot;)Register for classes]
+
 
 &lt;style&gt; img {
 	max-width: 25%;
@@ -147,7 +151,10 @@ After being an active member in the sports club, you make a ton of friends and l
 &lt;/style&gt;
 &lt;img
 src=&quot;https://mrauwald.github.io/SportsClub.jpg&quot; alt=&quot;Sports Club&quot; class=&quot;center&quot;&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="Social Justice Club" tags="" position="1587,1200" size="100,100">You join the social justice club and realize that you don&#39;t have enough free time to be an active member in the organization. There are too many long, strung-out meetings. Due to your busy schedule, you decide to sign up for a different club that is less time-consuming. (link: &quot;Sign up for a different club.&quot;)[(goto: &quot;Learn about and sign up for clubs&quot;)Learn about and sign up for clubs]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="Social Justice Club" tags="" position="1587,1200" size="100,100">You join the social justice club and realize that you don&#39;t have enough free time to be an active member in the organization. Although you enjoy social justice, there are too many long meetings for the club to be worth your time.
+
+(link: &quot;Sign up for a different club that is less time-consuming&quot;)[(goto: &quot;Learn about and sign up for clubs&quot;)Learn about and sign up for clubs]
+(link: &quot;Sign up for a social justice class&quot;)[(goto: &quot;Register for classes&quot;)Register for classes]
 
 &lt;style&gt; img {
 	max-width: 25%;
@@ -256,9 +263,13 @@ src=&quot;https://mrauwald.github.io/roommate.jpg&quot; alt=&quot;Roommate&quot;
 (if: $days is &gt; -1) [[Procrastinate and decide later]] 
 
 (if: $days is -1)[[University Housing assigns you a roommate at random.]]
-</tw-passagedata><tw-passagedata pid="17" name="Go random" tags="" position="871,521" size="100,100">You decide to randomize your roommate because it&#39;s less of a hassle. It is now time to [[choose your major.]]</tw-passagedata><tw-passagedata pid="18" name="University Housing assigns you a roommate at random." tags="" position="310,780" size="100,100">The housing deadline passes and University Housing has contacted you to let you know that they will be pairing you up with a random roommate. You decide to be more proactive with the college transition process in the future.
+</tw-passagedata><tw-passagedata pid="17" name="Go random" tags="" position="871,521" size="100,100">You decide to randomize your roommate because it&#39;s less of a hassle. 
 
-It is now time to [[choose your major.]]</tw-passagedata><tw-passagedata pid="19" name="It&#39;s a Saturday night" tags="" position="1965,478" size="100,100">It&#39;s a Saturday night mid-way through the fall semester and you have free time. What do you do?
+(link: &quot;Choose your major&quot;)[(goto: &quot;choose your major.&quot;)choose your major.]
+[[It&#39;s a Saturday night]]</tw-passagedata><tw-passagedata pid="18" name="University Housing assigns you a roommate at random." tags="" position="310,781.6666666666666" size="100,100">The housing deadline passes and University Housing has contacted you to let you know that they will be pairing you up with a random roommate. You decide to be more proactive with the college transition process in the future.
+
+(link: &quot;Choose your major&quot;)[(goto: &quot;choose your major.&quot;)choose your major.]
+(link: &quot;Attend FallFest&quot;)[(goto: &quot;attend FallFest.&quot;)attend FallFest.]</tw-passagedata><tw-passagedata pid="19" name="It&#39;s a Saturday night" tags="" position="1965,478" size="100,100">It&#39;s a Saturday night mid-way through the fall semester and you have free time. What do you do?
 
 [[Go out with friends]]
 (link: &quot;Study for your Monday exam&quot;)[(goto: &quot;study for your Monday exam&quot;)study for your Monday exam]</tw-passagedata><tw-passagedata pid="20" name="Go out with friends" tags="" position="1858,627" size="100,100">You decide to go out with a group of your friends but rather than going out to party, you [[attend FallFest.]]</tw-passagedata><tw-passagedata pid="21" name="study for your Monday exam" tags="" position="2096,655" size="100,100">You decide to study for your exam on Monday. After studying long and hard you see on Snapchat that all of your friends are hanging out together. You wind up receiving an A on the exam but you question whether or not it was worth giving up social time for. Next weekend rolls around and you decide to go out and [[attend FallFest.]] 
@@ -306,7 +317,7 @@ src=&quot;https://mrauwald.github.io/exss.jpg&quot; alt=&quot;Political Science&
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="Accept UNC Admissions Offer" tags="" position="981,158" size="100,100">You decide to accept your UNC Admissions offer and you&#39;re officially a &lt;yellow&gt;Tar Heel!&lt;/yellow&gt; It is time to:
 
 [[Choose your roommate]] 
-(link: &quot;Choose your major&quot;)[(goto: &quot;choose your major.&quot;)choose your major.]</tw-passagedata><tw-passagedata pid="27" name="Decide to room with the person who&#39;s most similar to you" tags="" position="648,499" size="100,100">You and Finley Corgan hit it off and decide to room together. You both have very similar interests and hobbies and [&lt;yellow&gt;you&#39;re excited to meet.&lt;/yellow&gt;]&lt;shout| (click: ?shout)[Mid-way through the fall semester, you and Finley have grown to be best friends. You often hangout together on the weekends.] 
+(link: &quot;Choose your major&quot;)[(goto: &quot;choose your major.&quot;)choose your major.]</tw-passagedata><tw-passagedata pid="27" name="Decide to room with the person who&#39;s most similar to you" tags="" position="648,500.6666666666667" size="100,100">You and Finley Corgan hit it off and decide to room together. You both have very similar interests and hobbies and [&lt;yellow&gt;you&#39;re excited to meet.&lt;/yellow&gt;]&lt;shout| (click: ?shout)[Mid-way through the fall semester, you and Finley have grown to be best friends. You often hangout together on the weekends.] 
 
 [[It&#39;s a Saturday night]]</tw-passagedata><tw-passagedata pid="28" name="Eat as much free food as you can" tags="" position="1685,974" size="100,100">You eat as much free food as you can. Some of the food vendors include Sitar Indian, Mediterranean Deli, Chick-fil-A, and Yogurt Pump. After snacking, you feel full and decide to (link: &quot;try something else.&quot;)[(goto: &quot;attend FallFest.&quot;)attend FallFest]
 
